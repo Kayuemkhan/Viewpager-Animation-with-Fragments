@@ -42,17 +42,17 @@ public class MainActivity extends AppCompatActivity {
                     imageView5.setColorFilter(getResources().getColor(R.color.overlay_dark_30));
                     imageView6.setColorFilter(getResources().getColor(R.color.overlay_dark_30));
                 } else if (position == 1) {
-                    imageView1.setColorFilter(getResources().getColor(R.color.overlay_dark_10));
-                    imageView2.setColorFilter(getResources().getColor(R.color.primary2));
-                    imageView3.setColorFilter(getResources().getColor(R.color.overlay_dark_10));
-                    imageView4.setColorFilter(getResources().getColor(R.color.overlay_dark_10));
+                    imageView1.setColorFilter(getResources().getColor(R.color.overlay_dark_30));
+                    imageView2.setColorFilter(getResources().getColor(R.color.primary1));
+                    imageView3.setColorFilter(getResources().getColor(R.color.overlay_dark_30));
+                    imageView4.setColorFilter(getResources().getColor(R.color.overlay_dark_30));
                     imageView5.setColorFilter(getResources().getColor(R.color.overlay_dark_30));
                     imageView6.setColorFilter(getResources().getColor(R.color.overlay_dark_30));
                 }
                 if (position == 2) {
                     imageView1.setColorFilter(getResources().getColor(R.color.overlay_dark_30));
                     imageView2.setColorFilter(getResources().getColor(R.color.overlay_dark_30));
-                    imageView3.setColorFilter(getResources().getColor(R.color.primary2));
+                    imageView3.setColorFilter(getResources().getColor(R.color.primary1));
                     imageView4.setColorFilter(getResources().getColor(R.color.overlay_dark_30));
                     imageView5.setColorFilter(getResources().getColor(R.color.overlay_dark_30));
                     imageView6.setColorFilter(getResources().getColor(R.color.overlay_dark_30));
@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
                     imageView1.setColorFilter(getResources().getColor(R.color.overlay_dark_30));
                     imageView2.setColorFilter(getResources().getColor(R.color.overlay_dark_30));
                     imageView3.setColorFilter(getResources().getColor(R.color.overlay_dark_30));
-                    imageView4.setColorFilter(getResources().getColor(R.color.primary2));
+                    imageView4.setColorFilter(getResources().getColor(R.color.primary1));
                     imageView5.setColorFilter(getResources().getColor(R.color.overlay_dark_30));
                     imageView6.setColorFilter(getResources().getColor(R.color.overlay_dark_30));
                 }
