@@ -11,7 +11,7 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
     public ViewPagerAdapter(FragmentManager fm) {
         super(fm);
         childFragments = new Fragment[] {
-                new ChildFragment1(), //0
+                new WelcomeFragment(), //0
                 new ChildFragment2(), //1
                 new ChildFragment3() //2
         };
