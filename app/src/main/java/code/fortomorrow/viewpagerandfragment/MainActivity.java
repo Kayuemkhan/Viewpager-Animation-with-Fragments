@@ -10,12 +10,13 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     ViewPager viewPager;
     ImageView imageView1, imageView2, imageView3, imageView4,imageView5,imageView6;
-
+    private TextView skiptext;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         // getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
@@ -50,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
                     imageView6.setColorFilter(getResources().getColor(R.color.overlay_dark_30));
                 }
                 if (position == 2) {
+                    skiptext.setVisibility(View.VISIBLE);
                     imageView1.setColorFilter(getResources().getColor(R.color.overlay_dark_30));
                     imageView2.setColorFilter(getResources().getColor(R.color.overlay_dark_30));
                     imageView3.setColorFilter(getResources().getColor(R.color.primary1));
@@ -89,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
         imageView4 = findViewById(R.id.imageview4);
         imageView5 = findViewById(R.id.imageview5);
         imageView6 = findViewById(R.id.imageview6);
-
+        skiptext = findViewById(R.id.skiptext);
     }
 
     private void setBackgroundColor() {
